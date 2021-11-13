@@ -1,4 +1,4 @@
 # C-Programs
- These are Programs for my C Coding Practice.
- This Program takes a date from a User and prints out the Day.
+ These are Programs from my C Coding Practice.
+ Free for all to use, who wants to learn coding in C basics.
  
