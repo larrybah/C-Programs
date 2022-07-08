@@ -2,7 +2,7 @@
 int main() {
     int i;
     //While Loop version
-    while(i<=100) {
+    while(i<100) {
         i++;
         printf("Number: %d\n", i);
     }
