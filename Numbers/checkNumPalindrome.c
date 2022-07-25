@@ -2,10 +2,10 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	int number, n, rev=0, x;
+	int number, n, rev=0, x; // Declare variables
 
 	printf("Enter a number: ");
-	scanf("%d", &n);
+	scanf("%d", &n); // Ask user for number
 
 	number = n;
 
@@ -14,6 +14,8 @@ int main(int argc, char const *argv[])
 		rev=rev*10+x;
 		n=n/10;
 	}
+
+	// check the condition
 	if(number == rev)
 		printf("The given number %d is a palindrome\n", rev);
 	else
