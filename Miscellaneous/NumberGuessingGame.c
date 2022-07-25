@@ -6,7 +6,7 @@ int main()
    //Declare Variables
    int i,flag=1, guess,number = 50, count=0;
    
-   //Ask for input
+   //Ask for input from user
    printf("Enter Guess: ");
    scanf("%d", &guess);
    
