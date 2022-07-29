@@ -39,11 +39,23 @@ Note: The gets() function can also be to take input from the user. However, it i
 
 It's because gets() allows you to input any length of characters. Hence, there might be a buffer overflow.
 
-
-
-
-
-
-
-
 */
+
+#include <stdio.h>
+void reverseSentence();
+int main() {
+    printf("Enter a Sentence: ");
+    reverseSentence();
+    printf("\n");
+    return 0;
+}
+
+void reverseSentence() {
+    char c;
+    scanf("%c", &c);
+    if(c != '\n') {
+        reverseSentence();
+        printf("%c", c);
+    }
+    
+}
