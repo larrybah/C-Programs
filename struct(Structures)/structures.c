@@ -32,7 +32,7 @@ There are two types of operators used for accessing members of a structure.
 #include <stdio.h>
 #include <string.h>
 
-// create struct with person1 variable
+// create struct with person1 and person2 variable
 struct Person {
 	char name[50];
 	int citNo;
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
 	//struct Variable 2
 
 	// assign value to name of person1
-	strcpy(person1.name, "King Kong");
+	strcpy(person1.name, "Phil Collins");
 
 
 	// assign values to other person1 variables

@@ -7,7 +7,7 @@
  };
 
  struct number {
-	struct complex comp; -- initializing complex struct from above in this one.
+	struct complex comp; -- initializing the complex struct from above in this one.
     int integer;
  } num1, num2;
 
